@@ -1,2 +1,3 @@
 # UICollectionViewControllerDemo
-UICollectionViewController demo
+
+some demo of using UICollectionViewController 
