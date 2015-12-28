@@ -97,11 +97,11 @@
             </objects>
             <point key="canvasLocation" x="1258" y="787"/>
         </scene>
-        <!--Item-->
+        <!--Circle-->
         <scene sceneID="l3A-Jr-Cui">
             <objects>
                 <navigationController id="kAt-bV-7yp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="D30-x9-nzK"/>
+                    <tabBarItem key="tabBarItem" title="Circle" id="D30-x9-nzK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4jU-Ww-ngV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -114,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="567" y="1485"/>
         </scene>
-        <!--View Controller-->
+        <!--Circle Collection View Controller-->
         <scene sceneID="4sz-ZW-wXp">
             <objects>
-                <viewController id="V6R-c1-cNp" sceneMemberID="viewController">
+                <viewController id="V6R-c1-cNp" customClass="CircleCollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HFZ-Kg-o6m"/>
                         <viewControllerLayoutGuide type="bottom" id="leg-Hd-QgE"/>

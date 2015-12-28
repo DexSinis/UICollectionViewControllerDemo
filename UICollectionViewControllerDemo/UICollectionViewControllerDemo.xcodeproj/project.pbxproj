@@ -21,6 +21,10 @@
 		3CFD07D81C3104F90006F48A /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07D61C3104F90006F48A /* GridCollectionViewCell.m */; };
 		3CFD07D91C3104F90006F48A /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07D71C3104F90006F48A /* GridCollectionViewCell.xib */; };
 		3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07DB1C3105850006F48A /* GridCollectionViewController.m */; };
+		3CFD07E01C310ABF0006F48A /* CircleViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07DF1C310ABF0006F48A /* CircleViewLayout.m */; };
+		3CFD07E41C310E270006F48A /* CircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07E21C310E270006F48A /* CircleCollectionViewCell.m */; };
+		3CFD07E51C310E270006F48A /* CircleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07E31C310E270006F48A /* CircleCollectionViewCell.xib */; };
+		3CFD07E81C310EA70006F48A /* CircleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07E71C310EA70006F48A /* CircleCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,13 @@
 		3CFD07D71C3104F90006F48A /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
 		3CFD07DA1C3105850006F48A /* GridCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewController.h; sourceTree = "<group>"; };
 		3CFD07DB1C3105850006F48A /* GridCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewController.m; sourceTree = "<group>"; };
+		3CFD07DE1C310ABF0006F48A /* CircleViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewLayout.h; sourceTree = "<group>"; };
+		3CFD07DF1C310ABF0006F48A /* CircleViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewLayout.m; sourceTree = "<group>"; };
+		3CFD07E11C310E270006F48A /* CircleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewCell.h; sourceTree = "<group>"; };
+		3CFD07E21C310E270006F48A /* CircleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewCell.m; sourceTree = "<group>"; };
+		3CFD07E31C310E270006F48A /* CircleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CFD07E61C310EA70006F48A /* CircleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewController.h; sourceTree = "<group>"; };
+		3CFD07E71C310EA70006F48A /* CircleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +91,7 @@
 		3CF33EDD1C2F98A10099FAE6 /* UICollectionViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CFD07DD1C310A950006F48A /* CircleCollectionViewController */,
 				3CFD07D11C31033D0006F48A /* GridCollectionViewController */,
 				3CFD07C81C30D36D0006F48A /* LinearCollectionViewController */,
 				3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */,
@@ -129,6 +141,20 @@
 				3CFD07DB1C3105850006F48A /* GridCollectionViewController.m */,
 			);
 			name = GridCollectionViewController;
+			sourceTree = "<group>";
+		};
+		3CFD07DD1C310A950006F48A /* CircleCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD07DE1C310ABF0006F48A /* CircleViewLayout.h */,
+				3CFD07DF1C310ABF0006F48A /* CircleViewLayout.m */,
+				3CFD07E11C310E270006F48A /* CircleCollectionViewCell.h */,
+				3CFD07E21C310E270006F48A /* CircleCollectionViewCell.m */,
+				3CFD07E31C310E270006F48A /* CircleCollectionViewCell.xib */,
+				3CFD07E61C310EA70006F48A /* CircleCollectionViewController.h */,
+				3CFD07E71C310EA70006F48A /* CircleCollectionViewController.m */,
+			);
+			name = CircleCollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFD07E51C310E270006F48A /* CircleCollectionViewCell.xib in Resources */,
 				3CF33EEE1C2F98A10099FAE6 /* LaunchScreen.storyboard in Resources */,
 				3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */,
 				3CF33EE91C2F98A10099FAE6 /* Main.storyboard in Resources */,
@@ -207,10 +234,13 @@
 				3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */,
 				3CF33EE61C2F98A10099FAE6 /* ViewController.m in Sources */,
 				3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */,
+				3CFD07E81C310EA70006F48A /* CircleCollectionViewController.m in Sources */,
 				3CFD07D41C31036D0006F48A /* GridViewLayout.m in Sources */,
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
 				3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */,
 				3CF33EE01C2F98A10099FAE6 /* main.m in Sources */,
+				3CFD07E01C310ABF0006F48A /* CircleViewLayout.m in Sources */,
+				3CFD07E41C310E270006F48A /* CircleCollectionViewCell.m in Sources */,
 				3CFD07CB1C30D4280006F48A /* LinearLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
