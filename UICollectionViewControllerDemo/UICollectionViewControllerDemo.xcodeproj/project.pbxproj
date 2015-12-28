@@ -17,6 +17,10 @@
 		3CFD07CB1C30D4280006F48A /* LinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07CA1C30D4280006F48A /* LinearLayout.m */; };
 		3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07CD1C30D8E50006F48A /* LinearCollectionViewCell.m */; };
 		3CFD07D01C30D9170006F48A /* LinearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07CF1C30D9170006F48A /* LinearCollectionViewCell.xib */; };
+		3CFD07D41C31036D0006F48A /* GridViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07D31C31036D0006F48A /* GridViewLayout.m */; };
+		3CFD07D81C3104F90006F48A /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07D61C3104F90006F48A /* GridCollectionViewCell.m */; };
+		3CFD07D91C3104F90006F48A /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07D71C3104F90006F48A /* GridCollectionViewCell.xib */; };
+		3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07DB1C3105850006F48A /* GridCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,13 @@
 		3CFD07CC1C30D8E50006F48A /* LinearCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearCollectionViewCell.h; sourceTree = "<group>"; };
 		3CFD07CD1C30D8E50006F48A /* LinearCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearCollectionViewCell.m; sourceTree = "<group>"; };
 		3CFD07CF1C30D9170006F48A /* LinearCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinearCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CFD07D21C31036D0006F48A /* GridViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewLayout.h; sourceTree = "<group>"; };
+		3CFD07D31C31036D0006F48A /* GridViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewLayout.m; sourceTree = "<group>"; };
+		3CFD07D51C3104F90006F48A /* GridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCell.h; sourceTree = "<group>"; };
+		3CFD07D61C3104F90006F48A /* GridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCell.m; sourceTree = "<group>"; };
+		3CFD07D71C3104F90006F48A /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CFD07DA1C3105850006F48A /* GridCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewController.h; sourceTree = "<group>"; };
+		3CFD07DB1C3105850006F48A /* GridCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,7 @@
 		3CF33EDD1C2F98A10099FAE6 /* UICollectionViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CFD07D11C31033D0006F48A /* GridCollectionViewController */,
 				3CFD07C81C30D36D0006F48A /* LinearCollectionViewController */,
 				3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */,
 				3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */,
@@ -103,6 +115,20 @@
 				3CFD07CF1C30D9170006F48A /* LinearCollectionViewCell.xib */,
 			);
 			name = LinearCollectionViewController;
+			sourceTree = "<group>";
+		};
+		3CFD07D11C31033D0006F48A /* GridCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD07D21C31036D0006F48A /* GridViewLayout.h */,
+				3CFD07D31C31036D0006F48A /* GridViewLayout.m */,
+				3CFD07D51C3104F90006F48A /* GridCollectionViewCell.h */,
+				3CFD07D61C3104F90006F48A /* GridCollectionViewCell.m */,
+				3CFD07D71C3104F90006F48A /* GridCollectionViewCell.xib */,
+				3CFD07DA1C3105850006F48A /* GridCollectionViewController.h */,
+				3CFD07DB1C3105850006F48A /* GridCollectionViewController.m */,
+			);
+			name = GridCollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +191,7 @@
 				3CF33EEE1C2F98A10099FAE6 /* LaunchScreen.storyboard in Resources */,
 				3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */,
 				3CF33EE91C2F98A10099FAE6 /* Main.storyboard in Resources */,
+				3CFD07D91C3104F90006F48A /* GridCollectionViewCell.xib in Resources */,
 				3CFD07D01C30D9170006F48A /* LinearCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,8 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFD07D81C3104F90006F48A /* GridCollectionViewCell.m in Sources */,
+				3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */,
 				3CF33EE61C2F98A10099FAE6 /* ViewController.m in Sources */,
 				3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */,
+				3CFD07D41C31036D0006F48A /* GridViewLayout.m in Sources */,
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
 				3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */,
 				3CF33EE01C2F98A10099FAE6 /* main.m in Sources */,

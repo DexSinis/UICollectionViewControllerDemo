@@ -27,11 +27,11 @@ static NSString *const kLinearCollectionViewCellID = @"kLinearCollectionViewCell
 - (void)initCollectionView
 {
     LinearLayout *layout = [[LinearLayout alloc] init];
-    layout.itemSize = CGSizeMake(100, 100);
+    layout.itemSize = CGSizeMake(150, 150);
     
-    CGRect frame = (CGRect){{0, self.view.frame.size.height * 0.3}, {self.view.frame.size.width, 220}};
+    CGRect frame = (CGRect){{0, self.view.frame.size.height * 0.3}, {self.view.frame.size.width, 320}};
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:layout];
-    collectionView.backgroundColor = [UIColor purpleColor];
+    collectionView.backgroundColor = [UIColor grayColor];
     collectionView.showsHorizontalScrollIndicator = NO;
     collectionView.dataSource = self;
     collectionView.delegate = self;
@@ -42,13 +42,13 @@ static NSString *const kLinearCollectionViewCellID = @"kLinearCollectionViewCell
 #pragma mark - collection dataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 40;
+    return 20;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     LinearCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:kLinearCollectionViewCellID forIndexPath:indexPath];
-    cell.imageName = [NSString stringWithFormat:@"zd", indexPath.item];
+    cell.imageName = [NSString stringWithFormat:@"%zd", indexPath.item + 1];
     return cell;
 }
 
