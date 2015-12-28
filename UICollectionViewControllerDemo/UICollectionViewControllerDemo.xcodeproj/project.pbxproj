@@ -13,6 +13,10 @@
 		3CF33EE91C2F98A10099FAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EE71C2F98A10099FAE6 /* Main.storyboard */; };
 		3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */; };
 		3CF33EEE1C2F98A10099FAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEC1C2F98A10099FAE6 /* LaunchScreen.storyboard */; };
+		3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07C61C30CC8C0006F48A /* LinearCollectionViewController.m */; };
+		3CFD07CB1C30D4280006F48A /* LinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07CA1C30D4280006F48A /* LinearLayout.m */; };
+		3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07CD1C30D8E50006F48A /* LinearCollectionViewCell.m */; };
+		3CFD07D01C30D9170006F48A /* LinearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07CF1C30D9170006F48A /* LinearCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF33EED1C2F98A10099FAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF33EEF1C2F98A10099FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFD07C51C30CC8C0006F48A /* LinearCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearCollectionViewController.h; sourceTree = "<group>"; };
+		3CFD07C61C30CC8C0006F48A /* LinearCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearCollectionViewController.m; sourceTree = "<group>"; };
+		3CFD07C91C30D4280006F48A /* LinearLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearLayout.h; sourceTree = "<group>"; };
+		3CFD07CA1C30D4280006F48A /* LinearLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearLayout.m; sourceTree = "<group>"; };
+		3CFD07CC1C30D8E50006F48A /* LinearCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearCollectionViewCell.h; sourceTree = "<group>"; };
+		3CFD07CD1C30D8E50006F48A /* LinearCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearCollectionViewCell.m; sourceTree = "<group>"; };
+		3CFD07CF1C30D9170006F48A /* LinearCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinearCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +69,12 @@
 		3CF33EDD1C2F98A10099FAE6 /* UICollectionViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CFD07C81C30D36D0006F48A /* LinearCollectionViewController */,
 				3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */,
 				3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */,
 				3CF33EE41C2F98A10099FAE6 /* ViewController.h */,
 				3CF33EE51C2F98A10099FAE6 /* ViewController.m */,
 				3CF33EE71C2F98A10099FAE6 /* Main.storyboard */,
-				3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */,
-				3CF33EEC1C2F98A10099FAE6 /* LaunchScreen.storyboard */,
-				3CF33EEF1C2F98A10099FAE6 /* Info.plist */,
 				3CF33EDE1C2F98A10099FAE6 /* Supporting Files */,
 			);
 			path = UICollectionViewControllerDemo;
@@ -74,9 +83,26 @@
 		3CF33EDE1C2F98A10099FAE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */,
+				3CF33EEC1C2F98A10099FAE6 /* LaunchScreen.storyboard */,
+				3CF33EEF1C2F98A10099FAE6 /* Info.plist */,
 				3CF33EDF1C2F98A10099FAE6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CFD07C81C30D36D0006F48A /* LinearCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD07C51C30CC8C0006F48A /* LinearCollectionViewController.h */,
+				3CFD07C61C30CC8C0006F48A /* LinearCollectionViewController.m */,
+				3CFD07C91C30D4280006F48A /* LinearLayout.h */,
+				3CFD07CA1C30D4280006F48A /* LinearLayout.m */,
+				3CFD07CC1C30D8E50006F48A /* LinearCollectionViewCell.h */,
+				3CFD07CD1C30D8E50006F48A /* LinearCollectionViewCell.m */,
+				3CFD07CF1C30D9170006F48A /* LinearCollectionViewCell.xib */,
+			);
+			name = LinearCollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +165,7 @@
 				3CF33EEE1C2F98A10099FAE6 /* LaunchScreen.storyboard in Resources */,
 				3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */,
 				3CF33EE91C2F98A10099FAE6 /* Main.storyboard in Resources */,
+				3CFD07D01C30D9170006F48A /* LinearCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF33EE61C2F98A10099FAE6 /* ViewController.m in Sources */,
+				3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */,
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
+				3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */,
 				3CF33EE01C2F98A10099FAE6 /* main.m in Sources */,
+				3CFD07CB1C30D4280006F48A /* LinearLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +328,7 @@
 				3CF33EF41C2F98A10099FAE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

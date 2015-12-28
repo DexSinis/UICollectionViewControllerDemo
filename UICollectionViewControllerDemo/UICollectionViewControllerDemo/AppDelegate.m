@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  UICollectionViewControllerDemo
+//  LinearCollectionViewController
 //
 //  Created by litt1e-p on 15/12/27.
 //  Copyright © 2015年 litt1e-p. All rights reserved.
