@@ -2,7 +2,7 @@
 //  ParallaxCollectionViewController.m
 //  UICollectionViewControllerDemo
 //
-//  Created by xzc on 15/12/29.
+//  Created by litt1e-p on 15/12/29.
 //  Copyright © 2015年 litt1e-p. All rights reserved.
 //
 
@@ -27,6 +27,7 @@ static NSString *const kParallaxCollectionViewHeaderViewID = @"kParallaxCollecti
     [super viewDidLoad];
     self.title = @"Parallax";
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.view.backgroundColor = [UIColor whiteColor];
     [self initView];
 }
 

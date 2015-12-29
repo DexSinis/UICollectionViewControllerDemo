@@ -25,6 +25,7 @@ static NSString * const kCircleCollectionViewCellID = @"kCircleCollectionViewCel
 {
     [super viewDidLoad];
     self.title = @"Circle";
+    self.view.backgroundColor = [UIColor whiteColor]; 
     [self initCollectionView];
 }
 

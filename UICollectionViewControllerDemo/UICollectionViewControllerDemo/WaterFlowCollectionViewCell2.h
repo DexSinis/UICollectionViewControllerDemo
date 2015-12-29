@@ -1,5 +1,5 @@
 //
-//  ParallaxViewLayout.h
+//  WaterFlowCollectionViewCell2.h
 //  UICollectionViewControllerDemo
 //
 //  Created by litt1e-p on 15/12/29.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ParallaxViewLayout : UICollectionViewFlowLayout
+@interface WaterFlowCollectionViewCell2 : UICollectionViewCell
+
+@property (nonatomic, copy) NSString *imageName;
 
 @end

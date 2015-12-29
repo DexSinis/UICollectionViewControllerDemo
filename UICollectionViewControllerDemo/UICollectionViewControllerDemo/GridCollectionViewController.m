@@ -21,6 +21,7 @@ static NSString * const kGridCollectionViewCellID = @"kGridCollectionViewCellID"
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Grid";
+    self.view.backgroundColor = [UIColor whiteColor]; 
     [self initCollectionView];
 }
 
