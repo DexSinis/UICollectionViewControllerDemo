@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Demo1BaseViewController.h"
 
-@interface CarouselViewController : UIViewController
+@interface CarouselViewController : Demo1BaseViewController
 
 @end
