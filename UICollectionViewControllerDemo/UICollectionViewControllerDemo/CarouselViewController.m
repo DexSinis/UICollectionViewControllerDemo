@@ -18,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor]; 
     self.title = @"Carousel";
     NSMutableArray *images = [NSMutableArray array];
     for (int i = 1; i < 5; i++) {
@@ -30,7 +31,16 @@
     carouselView.cellDidSelectItemAtIndex = ^(NSInteger selectedIndex) {
         NSLog(@"indexPath === %ld", selectedIndex);
     };
-    
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    for (UIView *subView in [UIApplication sharedApplication].keyWindow.subviews) {
+        if ([subView isKindOfClass:[UIPageControl class]]) {
+            [subView removeFromSuperview];
+        }
+    }
 }
 
 @end
