@@ -153,11 +153,11 @@
             </objects>
             <point key="canvasLocation" x="1258" y="2171"/>
         </scene>
-        <!--Table-->
+        <!--Parallax-->
         <scene sceneID="GR8-OK-Ng9">
             <objects>
                 <navigationController id="9bW-uS-t6W" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Table" id="uMi-tW-cXk"/>
+                    <tabBarItem key="tabBarItem" title="Parallax" id="uMi-tW-cXk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JgJ-Gz-JJN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="567" y="2899"/>
         </scene>
-        <!--View Controller-->
+        <!--Parallax Collection View Controller-->
         <scene sceneID="qUr-E3-qzs">
             <objects>
-                <viewController id="rhm-uH-KWc" sceneMemberID="viewController">
+                <viewController id="rhm-uH-KWc" customClass="ParallaxCollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pwW-wn-ZHT"/>
                         <viewControllerLayoutGuide type="bottom" id="jZc-fd-rDI"/>
