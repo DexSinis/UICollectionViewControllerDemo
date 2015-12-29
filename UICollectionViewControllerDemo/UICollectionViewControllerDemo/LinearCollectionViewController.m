@@ -21,6 +21,7 @@ static NSString *const kLinearCollectionViewCellID = @"kLinearCollectionViewCell
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Linear";
     [self initCollectionView];
 }
 

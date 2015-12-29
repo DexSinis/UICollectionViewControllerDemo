@@ -20,6 +20,7 @@ static NSString * const kGridCollectionViewCellID = @"kGridCollectionViewCellID"
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"Grid";
     [self initCollectionView];
 }
 

@@ -1,5 +1,5 @@
 //
-//  CircleCollectionViewController.h
+//  FlowCollectionViewController.h
 //  UICollectionViewControllerDemo
 //
 //  Created by litt1e-p on 15/12/28.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Demo1BaseViewController.h"
+#import "Demo2BaseViewController.h"
 
-@interface CircleCollectionViewController : Demo1BaseViewController
+@interface FlowCollectionViewController : Demo2BaseViewController
 
 @end

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3CF33EE01C2F98A10099FAE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EDF1C2F98A10099FAE6 /* main.m */; };
 		3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */; };
-		3CF33EE61C2F98A10099FAE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EE51C2F98A10099FAE6 /* ViewController.m */; };
-		3CF33EE91C2F98A10099FAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EE71C2F98A10099FAE6 /* Main.storyboard */; };
 		3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */; };
 		3CF33EEE1C2F98A10099FAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEC1C2F98A10099FAE6 /* LaunchScreen.storyboard */; };
 		3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07C61C30CC8C0006F48A /* LinearCollectionViewController.m */; };
@@ -25,6 +23,13 @@
 		3CFD07E41C310E270006F48A /* CircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07E21C310E270006F48A /* CircleCollectionViewCell.m */; };
 		3CFD07E51C310E270006F48A /* CircleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07E31C310E270006F48A /* CircleCollectionViewCell.xib */; };
 		3CFD07E81C310EA70006F48A /* CircleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07E71C310EA70006F48A /* CircleCollectionViewController.m */; };
+		3CFD07F81C3130D20006F48A /* Demo1BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07F71C3130D20006F48A /* Demo1BaseViewController.m */; };
+		3CFD07FB1C3130E10006F48A /* Demo2BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD07FA1C3130E10006F48A /* Demo2BaseViewController.m */; };
+		3CFD07FD1C3134600006F48A /* Demo2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07FC1C3134600006F48A /* Demo2.storyboard */; };
+		3CFD08001C3135180006F48A /* Demo1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD07FE1C3135180006F48A /* Demo1.storyboard */; };
+		3CFD08061C31360A0006F48A /* FlowCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD08051C31360A0006F48A /* FlowCollectionViewController.m */; };
+		3CFD080A1C32160B0006F48A /* CarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD08091C32160A0006F48A /* CarouselView.m */; };
+		3CFD080D1C321AEF0006F48A /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD080C1C321AEF0006F48A /* CarouselViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +37,6 @@
 		3CF33EDF1C2F98A10099FAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CF33EE41C2F98A10099FAE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CF33EE51C2F98A10099FAE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3CF33EE81C2F98A10099FAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF33EED1C2F98A10099FAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF33EEF1C2F98A10099FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +61,18 @@
 		3CFD07E31C310E270006F48A /* CircleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleCollectionViewCell.xib; sourceTree = "<group>"; };
 		3CFD07E61C310EA70006F48A /* CircleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleCollectionViewController.h; sourceTree = "<group>"; };
 		3CFD07E71C310EA70006F48A /* CircleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleCollectionViewController.m; sourceTree = "<group>"; };
+		3CFD07F61C3130D20006F48A /* Demo1BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1BaseViewController.h; sourceTree = "<group>"; };
+		3CFD07F71C3130D20006F48A /* Demo1BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1BaseViewController.m; sourceTree = "<group>"; };
+		3CFD07F91C3130E10006F48A /* Demo2BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2BaseViewController.h; sourceTree = "<group>"; };
+		3CFD07FA1C3130E10006F48A /* Demo2BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2BaseViewController.m; sourceTree = "<group>"; };
+		3CFD07FC1C3134600006F48A /* Demo2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo2.storyboard; sourceTree = "<group>"; };
+		3CFD07FF1C3135180006F48A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Demo1.storyboard; sourceTree = "<group>"; };
+		3CFD08041C31360A0006F48A /* FlowCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCollectionViewController.h; sourceTree = "<group>"; };
+		3CFD08051C31360A0006F48A /* FlowCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowCollectionViewController.m; sourceTree = "<group>"; };
+		3CFD08081C32160A0006F48A /* CarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselView.h; sourceTree = "<group>"; };
+		3CFD08091C32160A0006F48A /* CarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselView.m; sourceTree = "<group>"; };
+		3CFD080B1C321AEF0006F48A /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		3CFD080C1C321AEF0006F48A /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,14 +105,9 @@
 		3CF33EDD1C2F98A10099FAE6 /* UICollectionViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3CFD07DD1C310A950006F48A /* CircleCollectionViewController */,
-				3CFD07D11C31033D0006F48A /* GridCollectionViewController */,
-				3CFD07C81C30D36D0006F48A /* LinearCollectionViewController */,
-				3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */,
-				3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */,
-				3CF33EE41C2F98A10099FAE6 /* ViewController.h */,
-				3CF33EE51C2F98A10099FAE6 /* ViewController.m */,
-				3CF33EE71C2F98A10099FAE6 /* Main.storyboard */,
+				3CFD07E91C312DE90006F48A /* Base */,
+				3CFD08011C31358F0006F48A /* Demo1 */,
+				3CFD08021C3135940006F48A /* Demo2 */,
 				3CF33EDE1C2F98A10099FAE6 /* Supporting Files */,
 			);
 			path = UICollectionViewControllerDemo;
@@ -107,6 +116,8 @@
 		3CF33EDE1C2F98A10099FAE6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */,
+				3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */,
 				3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */,
 				3CF33EEC1C2F98A10099FAE6 /* LaunchScreen.storyboard */,
 				3CF33EEF1C2F98A10099FAE6 /* Info.plist */,
@@ -155,6 +166,58 @@
 				3CFD07E71C310EA70006F48A /* CircleCollectionViewController.m */,
 			);
 			name = CircleCollectionViewController;
+			sourceTree = "<group>";
+		};
+		3CFD07E91C312DE90006F48A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD07F61C3130D20006F48A /* Demo1BaseViewController.h */,
+				3CFD07F71C3130D20006F48A /* Demo1BaseViewController.m */,
+				3CFD07F91C3130E10006F48A /* Demo2BaseViewController.h */,
+				3CFD07FA1C3130E10006F48A /* Demo2BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3CFD08011C31358F0006F48A /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD07FE1C3135180006F48A /* Demo1.storyboard */,
+				3CFD08071C3215BC0006F48A /* CarouselCollectionViewController */,
+				3CFD07DD1C310A950006F48A /* CircleCollectionViewController */,
+				3CFD07D11C31033D0006F48A /* GridCollectionViewController */,
+				3CFD07C81C30D36D0006F48A /* LinearCollectionViewController */,
+			);
+			name = Demo1;
+			sourceTree = "<group>";
+		};
+		3CFD08021C3135940006F48A /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD07FC1C3134600006F48A /* Demo2.storyboard */,
+				3CFD08031C3135D00006F48A /* FlowCollectionViewController */,
+			);
+			name = Demo2;
+			sourceTree = "<group>";
+		};
+		3CFD08031C3135D00006F48A /* FlowCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD08041C31360A0006F48A /* FlowCollectionViewController.h */,
+				3CFD08051C31360A0006F48A /* FlowCollectionViewController.m */,
+			);
+			name = FlowCollectionViewController;
+			sourceTree = "<group>";
+		};
+		3CFD08071C3215BC0006F48A /* CarouselCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD08081C32160A0006F48A /* CarouselView.h */,
+				3CFD08091C32160A0006F48A /* CarouselView.m */,
+				3CFD080B1C321AEF0006F48A /* CarouselViewController.h */,
+				3CFD080C1C321AEF0006F48A /* CarouselViewController.m */,
+			);
+			name = CarouselCollectionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +280,10 @@
 				3CFD07E51C310E270006F48A /* CircleCollectionViewCell.xib in Resources */,
 				3CF33EEE1C2F98A10099FAE6 /* LaunchScreen.storyboard in Resources */,
 				3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */,
-				3CF33EE91C2F98A10099FAE6 /* Main.storyboard in Resources */,
+				3CFD08001C3135180006F48A /* Demo1.storyboard in Resources */,
 				3CFD07D91C3104F90006F48A /* GridCollectionViewCell.xib in Resources */,
 				3CFD07D01C30D9170006F48A /* LinearCollectionViewCell.xib in Resources */,
+				3CFD07FD1C3134600006F48A /* Demo2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,12 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFD080D1C321AEF0006F48A /* CarouselViewController.m in Sources */,
 				3CFD07D81C3104F90006F48A /* GridCollectionViewCell.m in Sources */,
 				3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */,
-				3CF33EE61C2F98A10099FAE6 /* ViewController.m in Sources */,
 				3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */,
+				3CFD07FB1C3130E10006F48A /* Demo2BaseViewController.m in Sources */,
+				3CFD08061C31360A0006F48A /* FlowCollectionViewController.m in Sources */,
+				3CFD07F81C3130D20006F48A /* Demo1BaseViewController.m in Sources */,
 				3CFD07E81C310EA70006F48A /* CircleCollectionViewController.m in Sources */,
 				3CFD07D41C31036D0006F48A /* GridViewLayout.m in Sources */,
+				3CFD080A1C32160B0006F48A /* CarouselView.m in Sources */,
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
 				3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */,
 				3CF33EE01C2F98A10099FAE6 /* main.m in Sources */,
@@ -248,20 +316,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3CF33EE71C2F98A10099FAE6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CF33EE81C2F98A10099FAE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3CF33EEC1C2F98A10099FAE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3CF33EED1C2F98A10099FAE6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3CFD07FE1C3135180006F48A /* Demo1.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CFD07FF1C3135180006F48A /* Base */,
+			);
+			name = Demo1.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -352,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UICollectionViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litt1e-p.UICollectionViewControllerDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UICollectionViewControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litt1e-p.UICollectionViewControllerDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

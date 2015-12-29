@@ -24,6 +24,7 @@ static NSString * const kCircleCollectionViewCellID = @"kCircleCollectionViewCel
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Circle";
     [self initCollectionView];
 }
 

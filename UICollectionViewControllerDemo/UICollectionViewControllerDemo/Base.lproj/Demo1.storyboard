@@ -19,11 +19,12 @@
                         <segue destination="ctP-r9-pEL" kind="relationship" relationship="viewControllers" id="9LS-nE-b5B"/>
                         <segue destination="kAt-bV-7yp" kind="relationship" relationship="viewControllers" id="Tw2-RG-h0r"/>
                         <segue destination="62b-ZD-duJ" kind="relationship" relationship="viewControllers" id="0Od-eV-QIZ"/>
+                        <segue destination="9bW-uS-t6W" kind="relationship" relationship="viewControllers" id="1GJ-J5-6Tl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qxt-ie-om5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-444" y="989"/>
+            <point key="canvasLocation" x="-380" y="2303"/>
         </scene>
         <!--Linear-->
         <scene sceneID="tcO-xL-A65">
@@ -133,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="1258" y="1485"/>
         </scene>
-        <!--View Controller-->
+        <!--Carousel View Controller-->
         <scene sceneID="zoq-qk-xfx">
             <objects>
-                <viewController id="PRL-jK-GZv" sceneMemberID="viewController">
+                <viewController id="PRL-jK-GZv" customClass="CarouselViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bu5-TC-lYR"/>
                         <viewControllerLayoutGuide type="bottom" id="2le-2C-fXn"/>
@@ -152,11 +153,47 @@
             </objects>
             <point key="canvasLocation" x="1258" y="2171"/>
         </scene>
-        <!--Item-->
+        <!--Table-->
+        <scene sceneID="GR8-OK-Ng9">
+            <objects>
+                <navigationController id="9bW-uS-t6W" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Table" id="uMi-tW-cXk"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JgJ-Gz-JJN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rhm-uH-KWc" kind="relationship" relationship="rootViewController" id="dS4-xc-vq3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jUh-Ib-c5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="567" y="2899"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qUr-E3-qzs">
+            <objects>
+                <viewController id="rhm-uH-KWc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pwW-wn-ZHT"/>
+                        <viewControllerLayoutGuide type="bottom" id="jZc-fd-rDI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g2O-FJ-oIq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oVs-Oh-pBL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XUU-kt-jal" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1258" y="2899"/>
+        </scene>
+        <!--Carousel-->
         <scene sceneID="R1A-5K-CRb">
             <objects>
                 <navigationController id="62b-ZD-duJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="BFO-rD-hpt"/>
+                    <tabBarItem key="tabBarItem" title="Carousel" id="BFO-rD-hpt"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="j44-TZ-yyy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

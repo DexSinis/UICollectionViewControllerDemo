@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Demo1BaseViewController.h"
 
-@interface GridCollectionViewController : UIViewController
+@interface GridCollectionViewController : Demo1BaseViewController
 
 @end
