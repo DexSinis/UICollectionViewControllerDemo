@@ -11,6 +11,9 @@
 		3C0BC6781C326EA2006B9AE0 /* WaterFlowCollectionViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6771C326EA2006B9AE0 /* WaterFlowCollectionViewController2.m */; };
 		3C0BC67C1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC67A1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.m */; };
 		3C0BC67D1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BC67B1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.xib */; };
+		3C0BC6811C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6801C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m */; };
+		3C0BC6841C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6831C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m */; };
+		3C0BC6871C328F4D006B9AE0 /* InfiniteCarouselModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6861C328F4D006B9AE0 /* InfiniteCarouselModel.m */; };
 		3CF33EE01C2F98A10099FAE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EDF1C2F98A10099FAE6 /* main.m */; };
 		3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */; };
 		3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */; };
@@ -50,6 +53,12 @@
 		3C0BC6791C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowCollectionViewCell2.h; sourceTree = "<group>"; };
 		3C0BC67A1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowCollectionViewCell2.m; sourceTree = "<group>"; };
 		3C0BC67B1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaterFlowCollectionViewCell2.xib; sourceTree = "<group>"; };
+		3C0BC67F1C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteCarouselCollectionViewCell.h; sourceTree = "<group>"; };
+		3C0BC6801C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteCarouselCollectionViewCell.m; sourceTree = "<group>"; };
+		3C0BC6821C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteCarouselCollectionViewController.h; sourceTree = "<group>"; };
+		3C0BC6831C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteCarouselCollectionViewController.m; sourceTree = "<group>"; };
+		3C0BC6851C328F4D006B9AE0 /* InfiniteCarouselModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteCarouselModel.h; sourceTree = "<group>"; };
+		3C0BC6861C328F4D006B9AE0 /* InfiniteCarouselModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteCarouselModel.m; sourceTree = "<group>"; };
 		3CF33EDB1C2F98A10099FAE6 /* UICollectionViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF33EDF1C2F98A10099FAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +136,19 @@
 				3C0BC67B1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.xib */,
 			);
 			name = WaterFlowCollectionViewController2;
+			sourceTree = "<group>";
+		};
+		3C0BC67E1C328510006B9AE0 /* InfiniteCarouselCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BC67F1C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.h */,
+				3C0BC6801C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m */,
+				3C0BC6821C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.h */,
+				3C0BC6831C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m */,
+				3C0BC6851C328F4D006B9AE0 /* InfiniteCarouselModel.h */,
+				3C0BC6861C328F4D006B9AE0 /* InfiniteCarouselModel.m */,
+			);
+			name = InfiniteCarouselCollectionViewController;
 			sourceTree = "<group>";
 		};
 		3CF33ED21C2F98A10099FAE6 = {
@@ -238,6 +260,7 @@
 		3CFD08021C3135940006F48A /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				3C0BC67E1C328510006B9AE0 /* InfiniteCarouselCollectionViewController */,
 				3CFD07FC1C3134600006F48A /* Demo2.storyboard */,
 				3CFD08031C3135D00006F48A /* WaterFlowCollectionViewController1 */,
 				3C0BC6751C326E5A006B9AE0 /* WaterFlowCollectionViewController2 */,
@@ -377,9 +400,12 @@
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
 				3CFD081A1C323DA30006F48A /* ParallaxCollectionViewController.m in Sources */,
 				3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */,
+				3C0BC6811C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m in Sources */,
 				3CF33EE01C2F98A10099FAE6 /* main.m in Sources */,
 				3CFD081D1C3255FD0006F48A /* WaterFlowCollectionViewCell.m in Sources */,
+				3C0BC6841C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m in Sources */,
 				3CFD08171C323D470006F48A /* ParallaxCollectionHeaderView.m in Sources */,
+				3C0BC6871C328F4D006B9AE0 /* InfiniteCarouselModel.m in Sources */,
 				3CFD07E01C310ABF0006F48A /* CircleViewLayout.m in Sources */,
 				3CFD07E41C310E270006F48A /* CircleCollectionViewCell.m in Sources */,
 				3CFD07CB1C30D4280006F48A /* LinearLayout.m in Sources */,
