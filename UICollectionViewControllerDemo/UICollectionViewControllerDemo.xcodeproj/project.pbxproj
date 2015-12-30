@@ -14,6 +14,10 @@
 		3C0BC6811C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6801C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m */; };
 		3C0BC6841C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6831C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m */; };
 		3C0BC6871C328F4D006B9AE0 /* InfiniteCarouselModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6861C328F4D006B9AE0 /* InfiniteCarouselModel.m */; };
+		3C0BC68B1C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC68A1C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.m */; };
+		3C0BC68E1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC68D1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m */; };
+		3C0BC6911C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6901C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m */; };
+		3C0BC6941C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6931C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m */; };
 		3CF33EE01C2F98A10099FAE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EDF1C2F98A10099FAE6 /* main.m */; };
 		3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */; };
 		3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */; };
@@ -59,6 +63,14 @@
 		3C0BC6831C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteCarouselCollectionViewController.m; sourceTree = "<group>"; };
 		3C0BC6851C328F4D006B9AE0 /* InfiniteCarouselModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteCarouselModel.h; sourceTree = "<group>"; };
 		3C0BC6861C328F4D006B9AE0 /* InfiniteCarouselModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteCarouselModel.m; sourceTree = "<group>"; };
+		3C0BC6891C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionLabelCollectionViewCell.h; sourceTree = "<group>"; };
+		3C0BC68A1C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionLabelCollectionViewCell.m; sourceTree = "<group>"; };
+		3C0BC68C1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionLabelCollectionViewController.h; sourceTree = "<group>"; };
+		3C0BC68D1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionLabelCollectionViewController.m; sourceTree = "<group>"; };
+		3C0BC68F1C3379A8006B9AE0 /* SubscriptionLabelViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionLabelViewLayout.h; sourceTree = "<group>"; };
+		3C0BC6901C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionLabelViewLayout.m; sourceTree = "<group>"; };
+		3C0BC6921C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionLabelCollectionReusableView.h; sourceTree = "<group>"; };
+		3C0BC6931C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionLabelCollectionReusableView.m; sourceTree = "<group>"; };
 		3CF33EDB1C2F98A10099FAE6 /* UICollectionViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF33EDF1C2F98A10099FAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -149,6 +161,21 @@
 				3C0BC6861C328F4D006B9AE0 /* InfiniteCarouselModel.m */,
 			);
 			name = InfiniteCarouselCollectionViewController;
+			sourceTree = "<group>";
+		};
+		3C0BC6881C33793F006B9AE0 /* SubscriptionLabelCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BC6891C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.h */,
+				3C0BC68A1C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.m */,
+				3C0BC68C1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.h */,
+				3C0BC68D1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m */,
+				3C0BC68F1C3379A8006B9AE0 /* SubscriptionLabelViewLayout.h */,
+				3C0BC6901C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m */,
+				3C0BC6921C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.h */,
+				3C0BC6931C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m */,
+			);
+			name = SubscriptionLabelCollectionViewController;
 			sourceTree = "<group>";
 		};
 		3CF33ED21C2F98A10099FAE6 = {
@@ -260,10 +287,11 @@
 		3CFD08021C3135940006F48A /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
-				3C0BC67E1C328510006B9AE0 /* InfiniteCarouselCollectionViewController */,
 				3CFD07FC1C3134600006F48A /* Demo2.storyboard */,
 				3CFD08031C3135D00006F48A /* WaterFlowCollectionViewController1 */,
 				3C0BC6751C326E5A006B9AE0 /* WaterFlowCollectionViewController2 */,
+				3C0BC67E1C328510006B9AE0 /* InfiniteCarouselCollectionViewController */,
+				3C0BC6881C33793F006B9AE0 /* SubscriptionLabelCollectionViewController */,
 			);
 			name = Demo2;
 			sourceTree = "<group>";
@@ -385,9 +413,11 @@
 				3CFD080D1C321AEF0006F48A /* CarouselViewController.m in Sources */,
 				3CFD08111C323BCC0006F48A /* ParallaxViewLayout.m in Sources */,
 				3CFD07D81C3104F90006F48A /* GridCollectionViewCell.m in Sources */,
+				3C0BC6941C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m in Sources */,
 				3CFD08141C323CBD0006F48A /* ParallaxCollectionViewCell.m in Sources */,
 				3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */,
 				3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */,
+				3C0BC68B1C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.m in Sources */,
 				3CFD07FB1C3130E10006F48A /* Demo2BaseViewController.m in Sources */,
 				3C0BC6781C326EA2006B9AE0 /* WaterFlowCollectionViewController2.m in Sources */,
 				3CFD08061C31360A0006F48A /* WaterFlowCollectionViewController.m in Sources */,
@@ -399,6 +429,8 @@
 				3C0BC67C1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.m in Sources */,
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
 				3CFD081A1C323DA30006F48A /* ParallaxCollectionViewController.m in Sources */,
+				3C0BC68E1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m in Sources */,
+				3C0BC6911C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m in Sources */,
 				3CFD07C71C30CC8C0006F48A /* LinearCollectionViewController.m in Sources */,
 				3C0BC6811C328A1B006B9AE0 /* InfiniteCarouselCollectionViewCell.m in Sources */,
 				3CF33EE01C2F98A10099FAE6 /* main.m in Sources */,

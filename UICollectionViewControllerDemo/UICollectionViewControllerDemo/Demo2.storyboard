@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="1364" y="5403"/>
         </scene>
-        <!--View Controller-->
+        <!--Subscription Label Collection View Controller-->
         <scene sceneID="6N5-9F-2OU">
             <objects>
-                <viewController id="Utv-cQ-3yL" sceneMemberID="viewController">
+                <viewController id="Utv-cQ-3yL" customClass="SubscriptionLabelCollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UHh-y5-qBc"/>
                         <viewControllerLayoutGuide type="bottom" id="D6k-A3-gzR"/>
@@ -172,11 +172,11 @@
             </objects>
             <point key="canvasLocation" x="1372" y="6819"/>
         </scene>
-        <!--Item-->
+        <!--Subscription-->
         <scene sceneID="0rQ-WO-eaS">
             <objects>
                 <navigationController id="AxZ-Yt-9Ph" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Prg-Mr-w4L"/>
+                    <tabBarItem key="tabBarItem" title="Subscription" id="Prg-Mr-w4L"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="J4G-71-qyY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
