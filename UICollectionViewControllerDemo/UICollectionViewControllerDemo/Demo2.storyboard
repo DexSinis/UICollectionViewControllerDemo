@@ -153,10 +153,10 @@
             </objects>
             <point key="canvasLocation" x="1372" y="6147"/>
         </scene>
-        <!--View Controller-->
+        <!--Calendar Collection View Controller-->
         <scene sceneID="ujz-Xn-Wiw">
             <objects>
-                <viewController id="7Mp-PR-tTk" sceneMemberID="viewController">
+                <viewController id="7Mp-PR-tTk" customClass="CalendarCollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vfI-oi-Tav"/>
                         <viewControllerLayoutGuide type="bottom" id="Ex1-vL-63x"/>
@@ -189,11 +189,11 @@
             </objects>
             <point key="canvasLocation" x="528" y="6147"/>
         </scene>
-        <!--Item-->
+        <!--Calendar-->
         <scene sceneID="d7I-Vd-mVo">
             <objects>
                 <navigationController id="Exr-wY-fsO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="QHi-QZ-tuw"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" id="QHi-QZ-tuw"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hsQ-he-p9A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

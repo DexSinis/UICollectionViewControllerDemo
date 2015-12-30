@@ -18,6 +18,10 @@
 		3C0BC68E1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC68D1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m */; };
 		3C0BC6911C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6901C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m */; };
 		3C0BC6941C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6931C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m */; };
+		3C0BC6981C33A65C006B9AE0 /* CalendarHeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6971C33A65C006B9AE0 /* CalendarHeaderReusableView.m */; };
+		3C0BC69B1C33A6BD006B9AE0 /* NSDate+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC69A1C33A6BD006B9AE0 /* NSDate+Calendar.m */; };
+		3C0BC69E1C33A897006B9AE0 /* CalendarCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC69D1C33A897006B9AE0 /* CalendarCollectionViewController.m */; };
+		3C0BC6A11C33A909006B9AE0 /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BC6A01C33A909006B9AE0 /* CalendarCollectionViewCell.m */; };
 		3CF33EE01C2F98A10099FAE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EDF1C2F98A10099FAE6 /* main.m */; };
 		3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF33EE21C2F98A10099FAE6 /* AppDelegate.m */; };
 		3CF33EEB1C2F98A10099FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF33EEA1C2F98A10099FAE6 /* Assets.xcassets */; };
@@ -71,6 +75,14 @@
 		3C0BC6901C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionLabelViewLayout.m; sourceTree = "<group>"; };
 		3C0BC6921C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionLabelCollectionReusableView.h; sourceTree = "<group>"; };
 		3C0BC6931C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionLabelCollectionReusableView.m; sourceTree = "<group>"; };
+		3C0BC6961C33A65C006B9AE0 /* CalendarHeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHeaderReusableView.h; sourceTree = "<group>"; };
+		3C0BC6971C33A65C006B9AE0 /* CalendarHeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHeaderReusableView.m; sourceTree = "<group>"; };
+		3C0BC6991C33A6BD006B9AE0 /* NSDate+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calendar.h"; sourceTree = "<group>"; };
+		3C0BC69A1C33A6BD006B9AE0 /* NSDate+Calendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calendar.m"; sourceTree = "<group>"; };
+		3C0BC69C1C33A897006B9AE0 /* CalendarCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewController.h; sourceTree = "<group>"; };
+		3C0BC69D1C33A897006B9AE0 /* CalendarCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewController.m; sourceTree = "<group>"; };
+		3C0BC69F1C33A909006B9AE0 /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		3C0BC6A01C33A909006B9AE0 /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
 		3CF33EDB1C2F98A10099FAE6 /* UICollectionViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF33EDF1C2F98A10099FAE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CF33EE11C2F98A10099FAE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -176,6 +188,21 @@
 				3C0BC6931C337A1F006B9AE0 /* SubscriptionLabelCollectionReusableView.m */,
 			);
 			name = SubscriptionLabelCollectionViewController;
+			sourceTree = "<group>";
+		};
+		3C0BC6951C33A623006B9AE0 /* CalendarCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C0BC6961C33A65C006B9AE0 /* CalendarHeaderReusableView.h */,
+				3C0BC6971C33A65C006B9AE0 /* CalendarHeaderReusableView.m */,
+				3C0BC6991C33A6BD006B9AE0 /* NSDate+Calendar.h */,
+				3C0BC69A1C33A6BD006B9AE0 /* NSDate+Calendar.m */,
+				3C0BC69C1C33A897006B9AE0 /* CalendarCollectionViewController.h */,
+				3C0BC69D1C33A897006B9AE0 /* CalendarCollectionViewController.m */,
+				3C0BC69F1C33A909006B9AE0 /* CalendarCollectionViewCell.h */,
+				3C0BC6A01C33A909006B9AE0 /* CalendarCollectionViewCell.m */,
+			);
+			name = CalendarCollectionViewController;
 			sourceTree = "<group>";
 		};
 		3CF33ED21C2F98A10099FAE6 = {
@@ -287,6 +314,7 @@
 		3CFD08021C3135940006F48A /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				3C0BC6951C33A623006B9AE0 /* CalendarCollectionViewController */,
 				3CFD07FC1C3134600006F48A /* Demo2.storyboard */,
 				3CFD08031C3135D00006F48A /* WaterFlowCollectionViewController1 */,
 				3C0BC6751C326E5A006B9AE0 /* WaterFlowCollectionViewController2 */,
@@ -418,8 +446,10 @@
 				3CFD07DC1C3105850006F48A /* GridCollectionViewController.m in Sources */,
 				3CFD07CE1C30D8E50006F48A /* LinearCollectionViewCell.m in Sources */,
 				3C0BC68B1C337968006B9AE0 /* SubscriptionLabelCollectionViewCell.m in Sources */,
+				3C0BC6A11C33A909006B9AE0 /* CalendarCollectionViewCell.m in Sources */,
 				3CFD07FB1C3130E10006F48A /* Demo2BaseViewController.m in Sources */,
 				3C0BC6781C326EA2006B9AE0 /* WaterFlowCollectionViewController2.m in Sources */,
+				3C0BC6981C33A65C006B9AE0 /* CalendarHeaderReusableView.m in Sources */,
 				3CFD08061C31360A0006F48A /* WaterFlowCollectionViewController.m in Sources */,
 				3CFD07F81C3130D20006F48A /* Demo1BaseViewController.m in Sources */,
 				3CFD07E81C310EA70006F48A /* CircleCollectionViewController.m in Sources */,
@@ -428,6 +458,7 @@
 				3CFD08201C3256D10006F48A /* WaterFlowViewLayout.m in Sources */,
 				3C0BC67C1C326FAC006B9AE0 /* WaterFlowCollectionViewCell2.m in Sources */,
 				3CF33EE31C2F98A10099FAE6 /* AppDelegate.m in Sources */,
+				3C0BC69E1C33A897006B9AE0 /* CalendarCollectionViewController.m in Sources */,
 				3CFD081A1C323DA30006F48A /* ParallaxCollectionViewController.m in Sources */,
 				3C0BC68E1C33797D006B9AE0 /* SubscriptionLabelCollectionViewController.m in Sources */,
 				3C0BC6911C3379A8006B9AE0 /* SubscriptionLabelViewLayout.m in Sources */,
@@ -437,6 +468,7 @@
 				3CFD081D1C3255FD0006F48A /* WaterFlowCollectionViewCell.m in Sources */,
 				3C0BC6841C328A36006B9AE0 /* InfiniteCarouselCollectionViewController.m in Sources */,
 				3CFD08171C323D470006F48A /* ParallaxCollectionHeaderView.m in Sources */,
+				3C0BC69B1C33A6BD006B9AE0 /* NSDate+Calendar.m in Sources */,
 				3C0BC6871C328F4D006B9AE0 /* InfiniteCarouselModel.m in Sources */,
 				3CFD07E01C310ABF0006F48A /* CircleViewLayout.m in Sources */,
 				3CFD07E41C310E270006F48A /* CircleCollectionViewCell.m in Sources */,
